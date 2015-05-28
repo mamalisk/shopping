@@ -24,9 +24,11 @@ class ShoppingSpec extends SpecSetup(
     }
 
     it("should print the total cost") {
-      val checkoutSystem = CheckoutSystem.getFor(List[String]())
+      var checkoutSystem = CheckoutSystem.getFor(List[String]())
       val totalCost = checkoutSystem.totalCost
       totalCost should be ("£0.0")
+      checkoutSystem = CheckoutSystem.getFor(List("apple", "apple","orange"))
+      checkoutSystem.totalCost should be ("£1.45")
     }
   }
 
