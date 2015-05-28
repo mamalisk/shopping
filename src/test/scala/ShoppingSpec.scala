@@ -37,6 +37,13 @@ class ShoppingSpec extends SpecSetup(
       checkoutSystem.addOffer(Offer("Apple",(2,1)))
       checkoutSystem.offers should have size 1
     }
+
+    it("should be able to perform discounts based on offers") {
+      val checkoutSystem = CheckoutSystem.getFor(List[String]("apple","apple","apple","apple","apple"))
+      checkoutSystem.addOffer(Offer("Apple",(4,1)))
+      checkoutSystem.offers should have size 1
+      checkoutSystem.totalCost should be ("£1.2")
+    }
   }
 
   describe("Offer"){
