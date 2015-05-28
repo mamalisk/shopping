@@ -1,8 +1,7 @@
 package com.exandas.shopping
 
 case class Offer(fruit:String, discount : (Int,Int)){
-  if(discount._2 > discount._1) throw new RuntimeException("wrong discount")
-  require(discount._2 > discount._1, "wrong discount")
+  require(discount._2 < discount._1, "wrong discount")
   require(fruit.equalsIgnoreCase("apple") || fruit.equalsIgnoreCase("orange"), s"unknown fruit $fruit")
 
 }
@@ -16,7 +15,9 @@ case class CheckoutSystem(fruits:List[Fruit]) {
        s"£$result"
     }
 
-
+   def addOffer(offer : Offer): Unit = {
+     offers = offers.::(offer)
+   }
 }
 
 object CheckoutSystem {

@@ -30,6 +30,26 @@ class ShoppingSpec extends SpecSetup(
       checkoutSystem = CheckoutSystem.getFor(List("apple", "apple","orange"))
       checkoutSystem.totalCost should be ("£1.45")
     }
+
+    it("should be able to accept offers") {
+      val checkoutSystem = CheckoutSystem.getFor(List[String]())
+      checkoutSystem.offers should have size 0
+      checkoutSystem.addOffer(Offer("Apple",(2,1)))
+      checkoutSystem.offers should have size 1
+    }
+  }
+
+  describe("Offer"){
+    it("should throw exception for unknown fruit"){
+      intercept[IllegalArgumentException] {
+        Offer("Pear",(3,2))
+      }
+    }
+    it("should throw exception for wrong discount") {
+      intercept[IllegalArgumentException] {
+        Offer("Orange",(2,3))
+      }
+    }
   }
 
   describe("Fruits") {
