@@ -1,7 +1,10 @@
 package com.exandas.shopping
 
 case class CheckoutSystem(fruits:List[Fruit]) {
-
+    def totalCost : String = {
+       val result = fruits.foldRight(0d)((r,c) => r.priceInCurrency.getActual + c)
+       s"£$result"
+    }
 }
 
 object CheckoutSystem {

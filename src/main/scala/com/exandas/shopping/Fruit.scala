@@ -5,6 +5,7 @@ sealed trait Fruit {
 }
 
 sealed trait Currency {
+  def getActual : Double
 }
 
 class Apple extends Fruit {
@@ -16,4 +17,5 @@ class Orange extends Fruit {
 }
 
 case class Pound(value:Double) extends Currency {
+  def getActual = value
 }
