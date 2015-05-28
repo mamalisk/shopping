@@ -1,2 +1,0 @@
-[debug] Subclass fingerprints: Stream((org.scalacheck.Properties,true,sbt.SubclassFingerprintWrapper@5c47de68), ?)
-[debug] Annotation fingerprints: Stream((org.scalatest.WrapWith,false,org.scalatest.tools.Framework$$anon$2@12bf02bb), ?)
