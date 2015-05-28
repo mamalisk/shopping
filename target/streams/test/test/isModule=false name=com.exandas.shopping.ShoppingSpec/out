@@ -1,0 +1,6 @@
+[info] ShoppingSpec:
+[info] + org.scalatest.SuperEngine$RegistrationInformer@55d22c99
+[info] I want to be able to buy apples and oranges and be provided with a total cost
+[info] In order to know how much I need to pay 
+[info] Checkout System
+[info] - should be able individual fruits to the card

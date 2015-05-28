@@ -1,0 +1,31 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(/Users/kostas/development/personal/shopping/src/test/scala/ShoppingSpec.scala)
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/kostas/development/personal/shopping/src/test/scala/ShoppingSpec.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/kostas/development/personal/shopping/src/test/scala/ShoppingSpec.scala)
+[info] Compiling 1 Scala source to /Users/kostas/development/personal/shopping/target/scala-2.11/test-classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.11.5
+[debug] Getting compiler-interface from component compiler for Scala 2.11.5
+[debug] Running cached compiler 3448c513, interfacing (CompilerInterface) with Scala compiler version 2.11.5
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes:/Users/kostas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+[debug] 	-classpath
+[debug] 	/Users/kostas/development/personal/shopping/target/scala-2.11/test-classes:/Users/kostas/development/personal/shopping/target/scala-2.11/classes:/Users/kostas/.ivy2/cache/org.scalatest/scalatest_2.11/jars/scalatest_2.11-2.2.1.jar:/Users/kostas/Downloads/software/activator-1.3.2/repository/org.scala-lang/scala-reflect/2.11.2/jars/scala-reflect.jar:/Users/kostas/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.2.jar:/Users/kostas/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.1.jar:/Users/kostas/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.2.jar:/Users/kostas/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar
+[debug] Scala compilation took 1.16132251 s
+[debug] Invalidated by transitive public inheritance: Set(/Users/kostas/development/personal/shopping/src/test/scala/ShoppingSpec.scala)
+[debug] Invalidated by direct dependency: Set()
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()

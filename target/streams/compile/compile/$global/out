@@ -1,0 +1,36 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/Users/kostas/development/personal/shopping/src/main/scala/CheckoutSystem.scala, /Users/kostas/development/personal/shopping/src/main/scala/Fruit.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/Users/kostas/development/personal/shopping/src/main/scala/CheckoutSystem.scala, /Users/kostas/development/personal/shopping/src/main/scala/Fruit.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/Users/kostas/development/personal/shopping/src/main/scala/CheckoutSystem.scala, /Users/kostas/development/personal/shopping/src/main/scala/Fruit.scala)
+[debug] Recompiling all 3 sources: invalidated sources (2) exceeded 50.0% of all sources
+[info] Compiling 3 Scala sources to /Users/kostas/development/personal/shopping/target/scala-2.11/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.11.5
+[debug] Getting compiler-interface from component compiler for Scala 2.11.5
+[debug] Running cached compiler 22544c72, interfacing (CompilerInterface) with Scala compiler version 2.11.5
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/classes:/Users/kostas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.5.jar
+[debug] 	-classpath
+[debug] 	/Users/kostas/development/personal/shopping/target/scala-2.11/classes
+[warn] /Users/kostas/development/personal/shopping/src/main/scala/CheckoutSystem.scala:3: imported `Fruit' is permanently hidden by definition of trait Fruit in package shopping
+[warn] import com.exandas.shopping.Fruit
+[warn]                             ^
+[warn] one warning found
+[debug] Scala compilation took 2.269472772 s
+[debug] Invalidated by transitive public inheritance: Set(/Users/kostas/development/personal/shopping/src/main/scala/CheckoutSystem.scala, /Users/kostas/development/personal/shopping/src/main/scala/Fruit.scala)
+[debug] Invalidated by direct dependency: Set(/Users/kostas/development/personal/shopping/src/main/scala/CheckoutSystem.scala)
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
